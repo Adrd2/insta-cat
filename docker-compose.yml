@@ -1,0 +1,7 @@
+version: '3'
+services:
+  my-java-rest-api:
+    build:
+      context: .
+    ports:
+      - "8181:8080"
